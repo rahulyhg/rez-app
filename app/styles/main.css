@@ -77,3 +77,21 @@ body {
     border-bottom: 0;
   }
 }
+
+.navbar-default {
+  background: #a6192e;
+  color: white;
+}
+
+.comingEvents {
+  font-weight: bold;
+  text-align: left;
+}
+
+.eventDate {
+  text-align: right;
+}
+
+.eventName {
+  text-align: center;
+}

@@ -13,22 +13,28 @@
 
     <body> 
         <div class="container">
+            <div class="navbar-default navbar-fixed-top">
+                <div class="navbar-header text-center">
+                    <h4> ResLife </h4>
+                </div>
+            </div>
+
             <div class="header">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="main.php">Events</a></li>
                     <li class=""><a href="ca_login.php">CA Login</a></li>
                     <li class=""><a href="logout.php">Logout</a></li>
                 </ul>
+            </div>        
+            <?php    
+                if (session_status() == PHP_SESSION_NONE) {
+                    session_start();
+                }
+
+                $_SESSION['callbackURL'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] .  $_SERVER['REQUEST_URI'];
+
+                if (isset($_SESSION['validUser'])) {
+                 
+                }
+            ?>
         
-                <?php    
-                    if (session_status() == PHP_SESSION_NONE) {
-                        session_start();
-                    }
-
-                    $_SESSION['callbackURL'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] .  $_SERVER['REQUEST_URI'];
-
-                    if (isset($_SESSION['validUser'])) {
-                     
-                    }
-                ?>
-            </div>

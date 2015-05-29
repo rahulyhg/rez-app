@@ -45,7 +45,9 @@
 							        		<label> Location of the event </label>
 								        	<select class=\"form-control\" name=\"location\" required>
 								        	  <option value=\"\" disabled selected>Event location</option>
-											  <option value=\"Towers\">The Towers</option>
+											  <option value=\"Shadbolt\">Shadbolt</option>
+											  <option value=\"BRae\">Barbara Rae</option>
+											  <option value=\"PJ\">Pauline Jewette</option>
 											  <option value=\"SHR\">Shell House</option>
 											  <option value=\"MCH\">McTaggart-Cowan Hall</option>
 											  <option value=\"TH\">Town Houses</option>
