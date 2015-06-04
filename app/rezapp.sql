@@ -17,10 +17,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `rezapp`
+-- Database: `vluna_rezapp`
 --
-CREATE DATABASE IF NOT EXISTS `rezapp` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `rezapp`;
+
 
 -- --------------------------------------------------------
 
